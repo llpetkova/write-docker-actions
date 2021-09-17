@@ -1,4 +1,4 @@
-FROM python:3
+FROM woahbase/alpine-python3:x86_64
 
 COPY requirements.txt ./
 

@@ -4,7 +4,7 @@ import sys
 import json
 
 # Make an HTTP GET request to the cat-fact API
-cat_url = "https://cat-fact.herokuapp.com/facts"
+cat_url = "https://cat-fact.herokuapp.com/facts/random"
 r = requests.get(cat_url)
 r_obj_list = r.json()
 print("This is object list: %s", r_obj_list)
